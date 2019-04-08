@@ -30,8 +30,8 @@ created-dashboards:
 ```
 
 ## Relevant Links
-DockerHub: https://hub.docker.com/r/andrewfarley/jsonnet-bundler-grafonnet-lib
-Github: https://github.com/AndrewFarley/grafonnet-lib-dockerhub
+* DockerHub: https://hub.docker.com/r/andrewfarley/jsonnet-bundler-grafonnet-lib
+* Github: https://github.com/AndrewFarley/grafonnet-lib-dockerhub
 
 ## Attribution
 Original Dockerfile Author: https://github.com/mlushpenko
