@@ -1,5 +1,5 @@
 # Grafonnet Lib Docker Image
-A simple Docker image that has jsonnet and grafana's grafonnet lib for CI/CD purposes
+A simple Docker image that has jsonnet and grafana's grafonnet lib for CI/CD purposes, or to avoid having to install jsonnet and grafonnet on your computer (keep it in docker).
 
 ## Sample Usage
 If you have a single dashboard called generateme.jsonnet in the current folder to compile you can...
@@ -31,6 +31,7 @@ created-dashboards:
 
 ## Relevant Links
 DockerHub: https://hub.docker.com/r/andrewfarley/jsonnet-bundler-grafonnet-lib
+Github: https://github.com/AndrewFarley/grafonnet-lib-dockerhub
 
 ## Attribution
 Original Dockerfile Author: https://github.com/mlushpenko
