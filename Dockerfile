@@ -14,7 +14,7 @@ RUN go get github.com/jsonnet-bundler/jsonnet-bundler/cmd/jb && \
 # Create image for dashboard generation
 FROM alpine:3.8 
 
-RUN apk add --no-cache libstdc++=6.4.0-r9 
+RUN apk add --no-cache libstdc++=6.4.0-r9 ca-certificates
 
 WORKDIR /dashboards
 
