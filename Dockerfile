@@ -1,7 +1,7 @@
 # Install required libraries 
 FROM golang:1.11.1-alpine AS builder
 
-RUN apk add --no-cache git=2.18.1-r0 build-base=0.5-r1 && \
+RUN apk add --no-cache git=2.18.4-r0 build-base=0.5-r1 && \
     rm -rf /var/lib/apt/lists/* 
 
 RUN git clone https://github.com/google/jsonnet.git && \
